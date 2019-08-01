@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-03-21_1023",
-    "currentPage": "index.html",
+    "currentPage": "giovana-rojas.html",
     "theme": {
       "name": "businessm4",
       "title": "Business M4",
@@ -52,7 +52,7 @@
         "url": "https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i"
       }
     ],
-    "uniqCompNum": 201,
+    "uniqCompNum": 202,
     "versionPublish": "4.10.6",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/52504217-414392312701198-2818950245122048000-n-128x128.png",
@@ -2007,6 +2007,109 @@
             "padding-top": "(@paddingTop * 15px)",
             "padding-bottom": "(@paddingBottom * 15px)",
             "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".card": {
+              "padding": "1rem 1rem 1rem 1rem"
+            },
+            ".card-title": {
+              "padding": ".5rem 1rem .5rem 4rem",
+              "margin-left": ".5rem",
+              "margin-bottom": "0",
+              "background": "linear-gradient(90deg, @headerColor1, @headerColor2)",
+              "border-top-right-radius": ".25rem",
+              "border-bottom-right-radius": ".25rem",
+              "border-top-left-radius": "1.5rem",
+              "border-bottom-left-radius": "1.5rem"
+            },
+            ".card-header": {
+              "display": "flex",
+              "-webkit-align-items": "center",
+              "align-items": "center",
+              "background": "none",
+              "padding": "0",
+              "border": "none",
+              "padding-bottom": "2rem"
+            },
+            ".card-img": {
+              "position": "absolute",
+              "width": "60px",
+              "height": "60px",
+              "overflow": "hidden",
+              "border-radius": "50%",
+              "background": "#ffffff",
+              "display": "flex",
+              "img": {
+                "width": "100%",
+                "min-width": "100%",
+                "min-height": "100%"
+              }
+            },
+            ".card-text,.mbr-subtitle": {
+              "color": "#8d97ad"
+            },
+            ".card-sign": {
+              "padding-top": ".5rem"
+            },
+            ".underline": {
+              ".line": {
+                "width": "5rem",
+                "height": "1px",
+                "background": "#efefef",
+                "display": "inline-block"
+              }
+            },
+            ".mbr-section-btn": {
+              "margin-left": "0"
+            },
+            "@media (max-width: 767px)": {
+              ".card-title": {
+                "text-align": "center"
+              },
+              "p.mbr-text,p.date": {
+                "text-align": "center"
+              }
+            },
+            ".card-box": {
+              "background": "@cardBg",
+              "padding": "2rem 2rem",
+              "-webkit-box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "box-shadow": "0px 0px 30px rgba(115, 128, 157, 0.1)",
+              "border-radius": "1rem"
+            },
+            ".card-title, .card-img": {
+              "color": "#ffffff"
+            },
+            ".mbr-subtitle": {
+              "color": "#1dc9cb"
+            },
+            "H2": {
+              "color": "#000000"
+            },
+            ".card-text": {
+              "color": "#787e8d"
+            }
+          },
+          "_name": "testimonials3",
+          "_customHTML": "<section class=\"testimonials2\" group=\"Features\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n    \n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"3\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"3\"> \n        \n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show SubTitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Desk\" name=\"showDesk\">\n        <input type=\"color\" title=\"Card Bg\" name=\"cardBg\" value=\"#ffffff\">\n        <select title=\"Cards\" name=\"cardsAmount\">\n            <option value=\"1\" selected>1</option>\n            <option value=\"2\">2</option>\n        </select>\n        <input type=\"color\" title=\"Header Color1\" name=\"headerColor1\" value=\"#52e5e5\">\n        <input type=\"color\" title=\"Header Color2\" name=\"headerColor2\" value=\"#369898\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1920x1205.jpg\" selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#f4fbff\">\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.9\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <h2 class=\"mbr-fonts-style mb-3 align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\"><b>Opiniones de mis clientes</b></h2>\n        <h3 class=\"mbr-text mbr-subtitle mbr-fonts-style mbr-light align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-subtitle\">valoraciones :)</h3>\n        <div class=\"row justify-content-center\" mbr-class=\"{'pt-2':showTitle||showSubtitle}\">\n            <div class=\"card col-12 col-md-6\">\n                <div class=\"card-box\">\n                    <div class=\"card-header\">\n                        <div class=\"card-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/mbr-41.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                        <h4 class=\"card-title mbr-fonts-style align-center mb-0 mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title, .card-img\">Y. Berbey</h4>\n                    </div>\n                    <p class=\"mbr-text card-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-7\" data-app-selector=\".card-text\">Me visito con la doctora rojas por primera vez hace unos 5 o 6 años. Desde entonces es mi Doctora de medicina estética de confianza.\n<br>\n<br>Allí donde visita voy porque el resultado que tengo con ella es de 10.\n<br>\n<br>Tengo la certeza y tranquilidad de que lo que ella decida hacer es lo necesario y el resultado ha sido siempre natural pero a la vez se aprecia un rejuvenecimiento facial importante.\n<br>\n<br>Tengo plena confianza en ella. Su trato es excelente. Los productos que utiliza son los mejores. Nunca he tenido ningún problema con ninguno de los tratamientos y he salido de la consulta 100% satisfecha.\n<br>\n<br>La recomiendo con toda tranquilidad y seguridad.&nbsp;<br></p>\n                    <div class=\"underline align-left\" mbr-if=\"showDesk\">\n                         <div class=\"line\"></div>\n                    </div>\n                    <p class=\"mbr-text card-sign mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showDesk\" data-app-selector=\".card-sign,.underline\">\n                        Managing Director\n                    </p>\n                </div>\n            </div>\n\n\n            <div class=\"card col-12 col-md-6\" mbr-if=\"cardsAmount > 1\">\n                <div class=\"card-box\">\n                    <div class=\"card-header\">\n                        <div class=\"card-img\">\n                            <img src=\"@PROJECT_PATH@/assets/images/mbr-38.jpg\" alt=\"Mobirise\" title>\n                        </div>\n                        <h4 class=\"card-title mbr-fonts-style align-center mb-0 mbr-white\" mbr-theme-style=\"display-5\" data-app-selector=\".card-title, .card-img\">A.V. Sánchez&nbsp;</h4>\n                    </div>\n                    <p class=\"mbr-text card-text mbr-fonts-style align-left m-0\" mbr-theme-style=\"display-7\" data-app-selector=\".card-text\">Respecto a mi opinión. Estoy muy contenta con los tratamientos de la Doctora Giovana Rojas. En primer lugar por su lado humano y cercano que tiene con el cliente.\n<br>\n<br>Y en segundo lugar por su gran profesionalidad, siempre estudia tu caso y te aconseja los mejores tratamientos al 100%. Y por supuesto cabe destacar su gran delicadeza a la hora de aplicar los tratamientos.&nbsp;<br></p>\n                    <div class=\"underline align-left\" mbr-if=\"showDesk\">\n                         <div class=\"line\"></div>\n                    </div>\n                    <p class=\"mbr-text card-sign mbr-fonts-style align-left mb-0\" mbr-theme-style=\"display-7\" mbr-if=\"showDesk\" data-app-selector=\".card-sign,.underline\">\n                        Managing Director\n                    </p>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_anchor": "testimonials3-5l",
+          "_isUserblock": true,
+          "_sourceTheme": "businessm4",
+          "_cid": "rxUVLR0ddK",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
               "background-color": "@bg-value",
               "& when (@gradientBg)": {
                 "background": "linear-gradient(45deg, @bg-value, @color2)"
@@ -2040,7 +2143,7 @@
             }
           },
           "_name": "info3",
-          "_customHTML": "<section class=\"mbr-section info3\" group=\"Call To Action\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Text on left/right\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#2bdc9d\" condition=\"bg.type=='color' && gradientBg\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#188ef4\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center content-row\">\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-fonts-style pb-3\" mbr-theme-style=\"display-2\">\n                    Start today. Discover a new approach to doing business\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\"><b>Los mejores tratamientos según tus necesidades y tipo de piel.\n</b><div>Pídeme cita y despeja tus dudas contactando conmigo a través de:<br><span style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">Tel - Mail - Whatsapp - Instagram - Facebook :)&nbsp;</span></div></h3>\n            </div>\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-right py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success btn-md\" href=\"contacto.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-help mbr-iconfont mbr-iconfont-btn\"></span>Contacta Conmigo<br>¡ahora!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section info3\" group=\"Call To Action\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"0\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Text on left/right\" name=\"reverseContent\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"https://youtu.be/iM-NestDPNQ\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Gradient Bg\" name=\"gradientBg\" condition=\"bg.type=='color'\">\n        <input type=\"color\" name=\"color2\" title=\"Color 2\" value=\"#2bdc9d\" condition=\"bg.type=='color' && gradientBg\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#188ef4\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.3\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center content-row\">\n            <div class=\"media-container-column title col-12 col-lg-7 col-md-6\">\n                <h2 mbr-if=\"showTitle\" class=\"align-left mbr-bold mbr-fonts-style pb-3\" mbr-theme-style=\"display-2\">\n                    Start today. Discover a new approach to doing business\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-left mbr-light mbr-fonts-style\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-section-subtitle\"><b>Los mejores tratamientos según tus necesidades y tipo de piel.\n</b><div>Pídeme cita a través de:&nbsp;<span style=\"font-family: inherit; font-size: inherit; font-style: inherit; font-variant-ligatures: inherit; font-variant-caps: inherit;\">Tel - Mail - Whatsapp - Instagram - Facebook :)&nbsp;</span></div></h3>\n            </div>\n            <div class=\"media-container-column col-12 col-lg-3 col-md-4\">\n                <div class=\"mbr-section-btn align-right py-4\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-success btn-md\" href=\"contacto.html\" data-app-placeholder=\"Type Text\"><span class=\"mbri-help mbr-iconfont mbr-iconfont-btn\"></span>Contacta Conmigo<br>¡ahora!</a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "info3-1b",
           "_isUserblock": true,
           "_sourceTheme": "businessm4",
