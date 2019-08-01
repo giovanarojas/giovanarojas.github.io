@@ -6248,6 +6248,92 @@ body {
 .cid-rllmx6Gf5Y .card .card-header a.panel-title[aria-expanded="true"] .header-text {
   color: #ffffff !important;
 }
+.cid-rxV2dpwsuq {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-image: url("../../../assets/images/mbr-19.jpg");
+}
+.cid-rxV2dpwsuq .card {
+  padding: 1rem 1rem 1rem 1rem;
+}
+.cid-rxV2dpwsuq .card-title {
+  padding: .5rem 1rem .5rem 4rem;
+  margin-left: .5rem;
+  margin-bottom: 0;
+  background: linear-gradient(90deg, #52e5e5, #369898);
+  border-top-right-radius: .25rem;
+  border-bottom-right-radius: .25rem;
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+}
+.cid-rxV2dpwsuq .card-header {
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  background: none;
+  padding: 0;
+  border: none;
+  padding-bottom: 2rem;
+}
+.cid-rxV2dpwsuq .card-img {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  background: #ffffff;
+  display: flex;
+}
+.cid-rxV2dpwsuq .card-img img {
+  width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+}
+.cid-rxV2dpwsuq .card-text,
+.cid-rxV2dpwsuq .mbr-subtitle {
+  color: #8d97ad;
+}
+.cid-rxV2dpwsuq .card-sign {
+  padding-top: .5rem;
+}
+.cid-rxV2dpwsuq .underline .line {
+  width: 5rem;
+  height: 1px;
+  background: #efefef;
+  display: inline-block;
+}
+.cid-rxV2dpwsuq .mbr-section-btn {
+  margin-left: 0;
+}
+@media (max-width: 767px) {
+  .cid-rxV2dpwsuq .card-title {
+    text-align: center;
+  }
+  .cid-rxV2dpwsuq p.mbr-text,
+  .cid-rxV2dpwsuq p.date {
+    text-align: center;
+  }
+}
+.cid-rxV2dpwsuq .card-box {
+  background: #ffffff;
+  padding: 2rem 2rem;
+  -webkit-box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  box-shadow: 0px 0px 30px rgba(115, 128, 157, 0.1);
+  border-radius: 1rem;
+}
+.cid-rxV2dpwsuq .card-title,
+.cid-rxV2dpwsuq .card-img {
+  color: #ffffff;
+}
+.cid-rxV2dpwsuq .mbr-subtitle {
+  color: #1dc9cb;
+}
+.cid-rxV2dpwsuq H2 {
+  color: #000000;
+}
+.cid-rxV2dpwsuq .card-text {
+  color: #787e8d;
+}
 .cid-rlPSpayb7V {
   padding-top: 15px;
   padding-bottom: 0px;
