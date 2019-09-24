@@ -74,7 +74,8 @@
     "fontSwitch": "",
     "htmltag": "lang\"es\"",
     "compresSwitch": "",
-    "witsec-white-label": "on"
+    "witsec-white-label": "on",
+    "cssOptimise": true
   },
   "pages": {
     "datoslegales.html": {
