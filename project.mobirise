@@ -16741,6 +16741,12 @@
             ".btn-md:after": {
               "font-family": "MobiriseIcons !important",
               "content": "'\\e925'"
+            },
+            "@media (max-width: 767px)": {
+              "padding-top": "100px"
+            },
+            "@media (max-width: 355px)": {
+              "padding-top": "120px"
             }
           },
           "_name": "features13",
@@ -16784,7 +16790,8 @@
             "@media (max-width: 767px)": {
               ".section-text,.card-text, .card-title,.mbr-section-title": {
                 "text-align": "center"
-              }
+              },
+              "padding-top": "20px"
             },
             "H2": {
               "color": "#1dc9cb"
@@ -16897,7 +16904,8 @@
             "@media (max-width: 767px)": {
               ".section-text,.card-text, .card-title,.mbr-section-title": {
                 "text-align": "center"
-              }
+              },
+              "padding-top": "20px"
             },
             ".card-text": {
               "font-size": "0.8rem"
@@ -17014,7 +17022,8 @@
             "@media (max-width: 767px)": {
               ".section-text,.card-text, .card-title,.mbr-section-title": {
                 "text-align": "center"
-              }
+              },
+              "padding-top": "20px"
             },
             ".media-container-row": {
               "justify-content": "left!important"
@@ -17066,7 +17075,8 @@
             "@media (max-width: 767px)": {
               ".section-text,.card-text, .card-title,.mbr-section-title": {
                 "text-align": "center"
-              }
+              },
+              "padding-top": "20px"
             },
             "H2": {
               "color": "#1dc9cb"
