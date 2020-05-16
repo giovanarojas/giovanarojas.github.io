@@ -2202,7 +2202,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -2239,6 +2239,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -3323,7 +3328,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -3360,6 +3365,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -4279,7 +4289,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -4316,6 +4326,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -5297,7 +5312,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -5334,6 +5349,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -5964,7 +5984,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -6001,6 +6021,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -7028,7 +7053,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -7065,6 +7090,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -7986,7 +8016,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -8023,6 +8053,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -9047,7 +9082,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -9084,6 +9119,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -10005,7 +10045,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -10042,6 +10082,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -10967,7 +11012,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -11004,6 +11049,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -11927,7 +11977,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -11964,6 +12014,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -12826,7 +12881,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -12863,6 +12918,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -13722,7 +13782,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -13759,6 +13819,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -14621,7 +14686,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -14658,6 +14723,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -15415,7 +15485,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -15452,6 +15522,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -16209,7 +16284,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -16246,6 +16321,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -17157,7 +17237,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -17194,6 +17274,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -18272,7 +18357,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -18309,6 +18394,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
@@ -19068,7 +19158,7 @@
               "-webkit-justify-content": "flex-end",
               "justify-content": "flex-end",
               ".mbr-iconfont-social": {
-                "font-size": "1.1rem",
+                "font-size": "0.8rem",
                 "color": "black"
               },
               ".soc-item": {
@@ -19105,6 +19195,11 @@
             ".copyright > p": {
               "text-align": "center",
               "color": "#787e8d"
+            },
+            "@media (max-width: 768px)": {
+              ".display-4": {
+                "font-size": "0.7rem"
+              }
             }
           },
           "_name": "footer4",
