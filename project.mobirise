@@ -16791,7 +16791,7 @@
               ".section-text,.card-text, .card-title,.mbr-section-title": {
                 "text-align": "center"
               },
-              "padding-top": "20px"
+              "padding-top": "65px"
             },
             "H2": {
               "color": "#1dc9cb"
@@ -16905,7 +16905,7 @@
               ".section-text,.card-text, .card-title,.mbr-section-title": {
                 "text-align": "center"
               },
-              "padding-top": "20px"
+              "padding-top": "65px"
             },
             ".card-text": {
               "font-size": "0.8rem"
@@ -17023,7 +17023,7 @@
               ".section-text,.card-text, .card-title,.mbr-section-title": {
                 "text-align": "center"
               },
-              "padding-top": "20px"
+              "padding-top": "65px"
             },
             ".media-container-row": {
               "justify-content": "left!important"
@@ -17076,7 +17076,7 @@
               ".section-text,.card-text, .card-title,.mbr-section-title": {
                 "text-align": "center"
               },
-              "padding-top": "20px"
+              "padding-top": "65px"
             },
             "H2": {
               "color": "#1dc9cb"
