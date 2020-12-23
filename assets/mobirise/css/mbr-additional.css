@@ -542,7 +542,7 @@ a:hover {
 }
 /* Scroll to top button*/
 .scrollToTop_wraper {
-  opacity: 0 !important;
+  display: none;
 }
 .mbr-arrow-up a {
   width: 61px;
